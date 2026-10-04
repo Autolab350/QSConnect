@@ -1,0 +1,14 @@
+---
+description: File discipline — edit/consolidate, do not spawn Python files
+alwaysApply: true
+---
+
+# File discipline (cloud)
+
+Default: **edit existing marketdata modules.** Name the function you change.
+
+Allowed: in-place edit · delete+replace · merge (delete extras).
+
+Forbidden: helper sprawl / duplicate providers / `*_v2.py`.
+
+If you add a file, state the consolidate/delete. Master: `../QSWorkflow/MAP.md`.
